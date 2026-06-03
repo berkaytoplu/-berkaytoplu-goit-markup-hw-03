@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -44,7 +46,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.116;
-  margin: 24px 76px 24px 156px;
 }
 
 .web {
@@ -69,6 +70,8 @@ body {
 
 .header-style {
   display: flex;
+  align-items: center;
+  justify-content:space-between;
 }
 
 .adress-link {
@@ -87,7 +90,6 @@ a {
 address {
   display: flex;
   gap: 40px;
-  margin: auto;
 }
 
 h1 {
@@ -116,7 +118,6 @@ h3 {
 
 .hero {
   background-color: #2e2f42;
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +126,6 @@ h3 {
 
 .footer-style {
   background-color: #2e2f42;
-  height: 312px;
   display: flex;
   flex-direction: column;
   padding: 100px 0 0 156px;
@@ -154,7 +154,6 @@ h3 {
   margin: 0;
   padding: 0;
   justify-content: center;
-  height: 732px;
 }
 
 .team-headings {
@@ -169,7 +168,6 @@ h3 {
   display: flex;
   list-style: none;
   gap: 24px;
-  margin: 120px 156px;
 }
 
 .portfolio-group {
@@ -178,5 +176,4 @@ h3 {
   list-style: none;
   flex-wrap: wrap;
   justify-content: center;
-  height: 1240px;
 }
