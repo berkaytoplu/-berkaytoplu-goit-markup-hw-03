@@ -181,6 +181,10 @@ img {
   text-align: center;
 }
 
+.team-group li {
+  background-color: #ffffff;
+}
+
 .section-2 {
   display: flex;
   list-style: none;
