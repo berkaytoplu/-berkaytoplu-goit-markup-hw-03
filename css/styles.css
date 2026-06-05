@@ -51,7 +51,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.116;
-}
+  }
 
 .web {
   color: #4d5ae6;
@@ -169,6 +169,12 @@ h3 {
 
 .team-headings {
   text-align: center;
+  padding-top: 32px;
+  padding-bottom:8px;
+}
+
+img {
+  display: block;
 }
 
 .team-texts {
