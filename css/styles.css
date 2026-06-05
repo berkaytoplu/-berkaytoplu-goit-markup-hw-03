@@ -179,7 +179,7 @@ img {
 
 .team-texts {
   text-align: center;
-   margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .team-group li {
@@ -205,4 +205,13 @@ img {
 .portfolio-section h2{
   margin-top: 120px;
   margin-bottom: 72px;
+}
+
+.portfolio-headings {
+  padding-top: 32px;
+  padding-bottom:8px;
+}
+
+.portfolio-texts {
+  margin-bottom: 80px;
 }
