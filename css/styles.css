@@ -36,7 +36,7 @@ body {
 }
 
 .sections-style {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .sections-style .container {
@@ -51,7 +51,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.116;
-  }
+}
 
 .web {
   color: #4d5ae6;
@@ -77,7 +77,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 24px 156px;
+  padding: 24px 0px;
 }
 
 .adress-link {
@@ -136,12 +136,12 @@ h3 {
 
 .footer-style {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0px 100px 0px;
 }
 
 .footer-style .container {
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
 }
 
 .footer-text {
@@ -164,13 +164,12 @@ h3 {
   display: flex;
   gap: 24px;
   justify-content: center;
-
 }
 
 .team-headings {
   text-align: center;
   padding-top: 32px;
-  padding-bottom:8px;
+  padding-bottom: 8px;
 }
 
 img {
@@ -190,7 +189,7 @@ img {
   display: flex;
   list-style: none;
   gap: 24px;
-  padding:120px 0px;
+  padding: 120px 0px;
 }
 
 .portfolio-group {
@@ -199,19 +198,29 @@ img {
   list-style: none;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 152px;
+  margin-bottom: 120px;
 }
 
-.portfolio-section h2{
+.portfolio-section h2 {
   margin-top: 120px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
+}
+
+.portfolio-section p {
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 .portfolio-headings {
   padding-top: 32px;
-  padding-bottom:8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 .portfolio-texts {
-  margin-bottom: 80px;
+  padding-bottom: 32px;
+}
+
+.portfolio-card-texts {
+  border: 1px solid #e7e9fc;
 }
